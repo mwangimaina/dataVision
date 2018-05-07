@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.data.DataForm1">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="20sp"
+        android:text="Please Confirm Your Location" />
+
+    <EditText
+        android:id="@+id/lat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="false"
+        android:hint="Your Latitude" />
+
+    <EditText
+        android:id="@+id/lon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="false"
+        android:hint="Your Longitude" />
+
+
+    <EditText
+        android:id="@+id/street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="false"
+        android:hint="Your Street" />
+
+
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:background="@color/prodrawerbackground"
+        android:text="ACCEPT" />
+
+
+    <Button
+        android:id="@+id/deny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@color/deny"
+        android:textColor="@color/problack"
+        android:text="DENY" />
+
+
+</android.widget.LinearLayout>

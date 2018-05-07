@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dataform1"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Site Visit" />
+        <item
+            android:id="@+id/nav_dataform2"
+            android:title="Data Form 2" />
+        <item
+            android:id="@+id/nav_dataform3"
+            android:title="Data Form 3" />
+        <item
+            android:id="@+id/nav_dataform4"
+            android:title="Data Form 4" />
+
+        <item
+            android:id="@+id/nav_dataform5"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="About" />
+
+            <item
+                android:id="@+id/nav_helpinfo"
+                android:title="Help" />
+
+        </menu>
+    </item>
+
+</menu>

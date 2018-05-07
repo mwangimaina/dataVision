@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="match_parent">
+<android.widget.LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.data.Form1Collection">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="20sp"
+        android:text="Site Visits" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+       >
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/in_date"
+            android:layout_marginTop="82dp"
+            android:enabled="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACTIVITY DATE"
+            android:id="@+id/btn_date"
+            android:layout_marginTop="5dp"
+            android:background="@color/prodrawerbackground"
+            android:textColor="@color/problack"
+            android:layout_alignBottom="@+id/in_date"
+            android:layout_toRightOf="@+id/in_date"
+            android:layout_toEndOf="@+id/in_date" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/in_time"
+            android:enabled="false"
+            android:layout_below="@+id/in_date"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START TIME"
+            android:id="@+id/btn_time"
+            android:layout_marginTop="5dp"
+            android:background="@color/prodrawerbackground"
+            android:textColor="@color/problack"
+            android:layout_below="@+id/btn_date"
+            android:layout_alignLeft="@+id/btn_date"
+            android:layout_alignStart="@+id/btn_date" />
+
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/in_stoptime"
+            android:layout_below="@+id/in_time"
+            android:enabled="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="STOP TIME"
+            android:background="@color/prodrawerbackground"
+            android:textColor="@color/problack"
+            android:id="@+id/btn_stoptime"
+            android:layout_below="@+id/btn_time"
+            android:layout_alignLeft="@+id/btn_time"
+            android:layout_alignStart="@+id/btn_time" />
+
+
+    </RelativeLayout>
+
+
+
+    <EditText
+        android:id="@+id/county"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+        android:hint="Your County" />
+
+    <EditText
+        android:id="@+id/subcounty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+        android:hint="Your Sub County" />
+
+
+    <EditText
+        android:id="@+id/village"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+        android:hint="Your Village" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/problack"
+         android:text="Select Technical Area"/>
+
+
+    <Spinner
+        android:id="@+id/area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+         />
+
+
+    <EditText
+        android:id="@+id/activitytype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+        android:hint="Type of Activity" />
+
+    <EditText
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+        android:hint="Your Output" />
+
+
+    <EditText
+        android:id="@+id/cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+        android:hint="Estimated Cost" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/problack"
+        android:text="Select Facility Type"/>
+
+    <Spinner
+        android:id="@+id/facilitytype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+        />
+
+    <EditText
+        android:id="@+id/facilityname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+        android:hint="Facilty Name" />
+
+    <EditText
+        android:id="@+id/officername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:textSize="15sp"
+        android:enabled="true"
+        android:hint="Officer Name" />
+
+
+    <Button
+        android:id="@+id/saverecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/problack"
+        android:background="@color/prodrawerbackground"
+        android:text="Save/Proceed" />
+
+
+
+</android.widget.LinearLayout>
+</ScrollView>

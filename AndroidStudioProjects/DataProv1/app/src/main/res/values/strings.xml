@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">DataProv1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">DataProV1</string>
+    <string name="nav_header_subtitle">Data is Life</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="form1_title">Site Visit</string>
+    <string name="title">Data Vision</string>
+    <string name="title1">Site Visit</string>
+    <string name="title2">App Visit</string>
+    <string name="description">
+        "Welcome to DataVision\n\n"
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+
+
+    </string>
+    <string name="large_text_about">
+        "About DataProV1.\n\n"
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+
+
+    </string>
+    <string name="title_activity_help">Help</string>
+    <string name="large_text_help">
+        "How to Use/FAQ\n\n"
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+    </string>
+    <string name="title_activity_get_location">Map</string>
+</resources>
